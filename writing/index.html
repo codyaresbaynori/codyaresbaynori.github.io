@@ -14,8 +14,9 @@
 :root{--navy:#172238;--navy-dark:#142036;--navy-mid:#1b2942;--gold:#c5a35a;--gold-light:#dfca91;--gold-pale:#f1e4bf;--cream:#f2ead8;--cream-light:#faf6ef;--ink:#1c2130;--muted:#626775;--line:#d9d0bd}
 *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--cream-light);color:var(--ink);font-family:'Source Serif 4',Georgia,serif;font-size:17px;line-height:1.65}
 a{color:inherit}.masthead{position:sticky;top:0;z-index:20;height:57px;padding:0 40px;background:var(--navy-dark);border-bottom:1px solid rgba(197,163,90,.25);display:flex;align-items:center;justify-content:space-between}
-.brand{font-family:'Source Serif 4',Georgia,serif;font-size:1.15rem;font-weight:600;letter-spacing:.04em;color:var(--gold-pale);text-decoration:none}
-.brand span{color:var(--gold)}.nav{display:flex;gap:30px;list-style:none;margin:0;padding:0;font-family:'Source Sans 3',Arial,sans-serif;font-size:10.5px;font-weight:600;letter-spacing:.18em;text-transform:uppercase}
+.brand{display:flex;align-items:center;text-decoration:none}
+.masthead-logo{height:36px;width:auto;display:block;opacity:.92;transition:opacity .2s;mask-image:radial-gradient(ellipse 80% 70% at 50% 40%,black 30%,rgba(0,0,0,.8) 52%,rgba(0,0,0,.3) 72%,transparent 90%);-webkit-mask-image:radial-gradient(ellipse 80% 70% at 50% 40%,black 30%,rgba(0,0,0,.8) 52%,rgba(0,0,0,.3) 72%,transparent 90%)}
+.masthead-logo:hover{opacity:1}.nav{display:flex;gap:30px;list-style:none;margin:0;padding:0;font-family:'Source Sans 3',Arial,sans-serif;font-size:10.5px;font-weight:600;letter-spacing:.18em;text-transform:uppercase}
 .nav a{color:var(--gold-light);text-decoration:none}.nav a:hover,.nav a[aria-current="page"]{color:#fff}
 .hero{background:var(--navy-dark);color:white;padding:78px 40px 72px;border-bottom:1px solid rgba(197,163,90,.28)}
 .wrap{max-width:1080px;margin:0 auto}.eyebrow{font-family:'Source Sans 3',Arial,sans-serif;color:var(--gold-light);font-size:11px;font-weight:600;letter-spacing:.22em;text-transform:uppercase;margin-bottom:18px}
